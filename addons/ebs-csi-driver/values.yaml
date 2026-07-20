@@ -1,0 +1,14 @@
+replicaCount: 1
+
+controller:
+
+  serviceAccount:
+
+    create: true
+
+    name: ebs-csi-controller-sa
+
+
+node:
+
+  tolerateAllTaints: true
